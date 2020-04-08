@@ -1,0 +1,74 @@
+
+body {
+    text-align:center;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+button,table,#game,body,td {
+    margin: 40px auto 0 auto;
+    background:#eee;
+}
+
+#game,#gameboard {
+/*    width:620px;*/
+    width: 76%;
+}
+
+
+#r {
+    font-size: 20px;
+}
+
+#left {
+    float:left;
+}
+
+#right {
+    float:right;
+}
+
+.
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+body {
+  --available-height: calc(100vh);
+  margin: 0;
+  font-size: 2vw;
+}
+
+button.choice {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+    background-color: azure;
+    border-color: azure;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+div#game {
+  flex: 3;
+  height: var(--available-height);
+  width: 60vw;
+}
+
+p {
+    font-size: 15px;
+}
