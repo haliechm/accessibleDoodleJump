@@ -25,7 +25,7 @@ var player = new function() {
             ctx.font = "60px Arial";
             ctx.fillStyle = "red";
             ctx.textAlign = "center";
-            ctx.fillText("You Died!", screenWidth / 2, screenHeight / 3 + 50); 
+            ctx.fillText("Game Over!", screenWidth / 2, screenHeight / 3 + 50); 
             ctx.font = "36px Arial";
             ctx.fillText("Press enter to restart", screenWidth / 2, (screenHeight / 2) + 50);
         }
