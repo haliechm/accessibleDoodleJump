@@ -1,6 +1,6 @@
 function spawnMonster() {
     var monsterChances = {
-        "smallRed": 99
+        "smallRed": 0
     };
 
     if (Math.round(Math.random() * monsterChances["smallRed"]) === 0) {
